@@ -6,7 +6,7 @@ function waitFor(element, eventName) {
       eventName,
       () => {
         resolve(
-          `It was ${eventName} on the element: ${element.nodeName}, id: ${element.id}`,
+          `It was ${eventName} on the element: ${element.nodeName}, id: ${element.id}.`,
         );
       },
       { once: true },
